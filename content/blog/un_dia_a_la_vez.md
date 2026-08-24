@@ -1,0 +1,10 @@
++++
+title = "Un día a la vez"
+date = 2026-08-23
++++
+
+A veces se me olvida todo lo que ha pasado en tan poco tiempo, y realmente ha sido mucho: Cambie de trabajo, ciudad, vida e incluso perdí personas. Tantas cosas nuevas que me abruman, me llenan realmente de mucho pensamiento, extraño el olor, color y sentir de muchos lugares y gentes; pero también soy conciente que no puedo mirar hacia atras tan compulsivamente, es un habito dañino que debería quitarme de una vez.
+Los recuerdos son como una olla a presión que poco a poco van encontrando su forma de salir como el vapor, a tal punto que se hacen tan fuertes, que es imposible no escucharlos desde cualquier habitación, al igual que lo que se cocina que nos recuerdan sabores, gusto y experiencias, los recuerdos encuentran una analogia similar: Una sonrisa, una palabra, un día especial, algo que fue importante en algun momento con alguien, experiencias que nos hicieron sentir vivos, tristes o con ganas de irnos y nunca volver, o bien, el cielo eterno que no queremos que se acabe nunca. Entonces que frio es el punto en que tengo que aceptar la realidad que esas cosas ya vivirán en otro plano, al menos no más en la realidad, son más cercanos a un sueño, una fantasia, que lo que tienes ahora mismo en tu vida.
+Un día a la vez decido vivir, porque si bien aprecio estas fantasias y sueños algunos desdichados y otros afortunados que atesoro en mi corazón, ahora cada decisión que tome será porque la gracia divina me permitio ser mejor, antes equivocandome, cometiendo un error, realizando una genialidad o un acto de inteligencia, experiencias que viven en el pasado, pero que ponen mi mente únicamente en el presente. Le doy gracias a Dios porque lo mínimo que necesito lo tengo y más, porque la vida cada día es mejor cuando ni me tambaleo mirando hacia atras, ni me tropiezo mirando demasiado adelante. 
+<br>
+Mañana siempre será mejor, pero en el hoy es donde mi mente tiene que estar.
