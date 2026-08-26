@@ -1,14 +1,18 @@
 {% extends "base.html" %}
 
+{% block title %}Blog · magicaedo{% endblock title %}
+
 {% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
-<ul>
-  <!-- If you are using pagination, section.pages will be empty.
-       You need to use the paginator object -->  
+<h1 class="title">{{ section.title }}</h1>
+<p class="subtitle">Archivo de entradas</p>
+<ul class="post-list">
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% if page.slug != "about" %}
+  <li>
+    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    <time>{{ page.date | date(format="%d %b %Y") }}</time>
+  </li>
+  {% endif %}
   {% endfor %}
 </ul>
 {% endblock content %}

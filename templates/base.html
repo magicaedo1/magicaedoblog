@@ -1,17 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
-  <title>magicaedo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}magicaedo{% endblock title %}</title>
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
+  <div class="page">
+    <header class="site-header">
+      <p class="site-title"><a href="/">magicaedo</a></p>
+    </header>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a></li>
+        <li><a href="{{ get_url(path="@/blog/about.md") }}">About</a></li>
+      </ul>
+    </nav>
+
+    <hr class="double">
+
+    <main>
       {% block content %} {% endblock content %}
-    </div>
-  </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="badges">
+      </div>
+      <p>hecho con Zola</p>
+    </footer>
+  </div>
 </body>
 
 </html>
