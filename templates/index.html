@@ -3,8 +3,20 @@
 {% block title %}magicaedo{% endblock title %}
 
 {% block content %}
-<h1 class="title">Hallo</h1>
-<p>
-  <i>This is my space</i>
-</p>
+<h1 class="title">Index</h1>
+
+{% for cat in ["blog"] %}
+{% set cat_section = get_section(path=cat ~ "/_index.md") %}
+<section class="category">
+  <h2 class="category-title">{{ cat_section.title }}</h2>
+  <ul class="post-list">
+    {% for page in cat_section.pages %}
+    <li>
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      <time>{{ page.date | date(format="%d %b %Y") }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
 {% endblock content %}

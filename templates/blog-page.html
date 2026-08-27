@@ -4,10 +4,9 @@
 
 {% block content %}
 <h1 class="title">{{ page.title }}</h1>
-{% if page.slug != "about" %}
 <p class="subtitle">{{ page.date | date(format="%d %B %Y") }}</p>
-{% endif %}
 {{ page.content | safe }}
 <hr>
-<p class="back-link"><a href="{{ get_url(path="@/blog/_index.md") }}">&larr; volver al blog</a></p>
+{% set parent = get_section(path=page.ancestors | last) %}
+<p class="back-link"><a href="{{ parent.permalink | safe }}">&larr; volver a {{ parent.title }}</a></p>
 {% endblock content %}
