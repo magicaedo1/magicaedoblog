@@ -1,6 +1,7 @@
 +++
 title = "Hagamos un trato"
 date = 2026-08-30
+draft = true
 +++
 Uno de los animes que más me ha gustado por su estetica, atmosfera e historia es *Monster* de *Naoki Urasawa*. Trata sobre un médico que por cuestiones de la vida está con el dilema de tener que quitar la vida de alguién que en el pasado salvó; la historia es más compleja que eso y me gustaría escribir sobre ella algún día. 
 

@@ -1,6 +1,7 @@
 +++
 title = "Pienso luego olvido"
 date = 2026-08-26
+draft = true
 +++
 Estoy un poco cansado, el día a día ha sido más pesado por la falta de sueño. He probado varías cosas: higiene del sueño, comer menos de noche, comer más verduras, tomar más agua, entre otras cosas, nada termina de encajar.
 
